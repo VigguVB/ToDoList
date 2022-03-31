@@ -1,12 +1,33 @@
 .App {
   text-align: center;
+  margin-top: 5%;
+  width: 60%;
+  margin-left: 20%;
+  padding-bottom: 2%;
+  border-radius: 14px;
+  box-shadow: 2px 2px 12px black;
+  background-color: #282c34;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input{
+  margin-top: 2%;
+  height: 50px;
+  width: 72%;
+  margin-left: 3%;
+  font-size: 23px;
+  margin-bottom: 5%;
 }
-
+.btn{
+  margin-top: 2%;
+  height: 56px;
+  width: 18%;
+  margin-left: 2%;
+  font-size: 25px;
+  color: white;
+  background-color: #0cb20c;
+  border: none;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

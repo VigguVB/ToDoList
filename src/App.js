@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <input onChange={dataHandler} value={enteredData} className='input' />
       <button onClick={addItemHandler} className='btn'>ADD +</button>
-      <List items={itemData} />
+      <List items={itemData} onNewData={setItemData} />
     </div>
   );
 }
